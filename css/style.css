@@ -1,6 +1,4 @@
-html{
-    scroll-behavior: smooth;
-}
+
 .container{
     margin: auto;
 }
@@ -21,6 +19,23 @@ p{
 .item>img{
     width:auto;
     height: 600px;
+}
+
+
+#Location{
+    margin:auto;
+}
+
+.card{
+    background-color: aqua;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+  
+.card:hover{
+    transform: scale(1.1);
 }
 
 
@@ -69,19 +84,4 @@ p{
     .carousel-item-prev:not(.carousel-item-end) {
         transform: translateX(-25%) !important;
     }
-}
-#Location{
-    margin:auto;
-}
-
-.card{
-    background-color: aqua;
-}
-
-img:hover{
-    transform: scale(1.05);
-}
-  
-.card:hover{
-    transform: scale(1.1);
 }
